@@ -1,5 +1,5 @@
 //** Angular Module
-import { NgModule } from "@angular/core";
+import { NgModule ,NO_ERRORS_SCHEMA } from "@angular/core";
 import {Http} from "@angular/http";
  
 
@@ -8,6 +8,8 @@ import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import {NativeScriptHttpModule} from "nativescript-angular/http";
 import {NativeScriptFormsModule } from 'nativescript-angular/forms';
 import { NativeScriptRouterModule } from "nativescript-angular/router";
+import { NativeScriptLocalizeModule } from "nativescript-localize/angular";
+
 //** */
 
 import { AppComponent } from "./app.component";
@@ -24,6 +26,7 @@ import {routes,navigatableComponents} from "./app.routing";
     NativeScriptHttpModule,
     NativeScriptRouterModule,
     NativeScriptRouterModule.forRoot(routes),
+    NativeScriptLocalizeModule
     //NG Modules
     
   ],
@@ -31,6 +34,7 @@ import {routes,navigatableComponents} from "./app.routing";
     AppComponent,
     ...navigatableComponents// this array contains all the components that we are going to use in our app
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [NO_ERRORS_SCHEMA]
 })
 export class AppModule {}
