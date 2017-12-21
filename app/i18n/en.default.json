@@ -4,6 +4,24 @@
       "NSLocationWhenInUseUsageDescription": "This will be added to InfoPlist.strings"
     },
   
-    "user":"utilisateur"  
+    "user":"utilisateur",
+    
+    
+    "Common_Words":{},
+      "C_Next":"Next",
+
+    
+    "Login_page":{},
+      "Login_signin":"sign in",
+      "Login_signup":"sign up",
+      "Login_hint_email":"Email Address",
+      "Login_hint_password":"Password",
+    "Signup_page":{},
+      "S_Page_title_signup":"sign up",
+      "S_Customer_Or_Business":"Are you a customer or a Business ?",
+      "S_Customer":"Customer",
+      "S_Business":"Business",
+      "S_Employee":"Employee"  
+  
 
   }

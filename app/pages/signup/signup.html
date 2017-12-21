@@ -1,13 +1,19 @@
-<page>
-        <ActionBar class="action-bar" title="Sign Up" >
+<page class="page">
+        <ActionBar class="action-bar" title="{{'S_Page_title_signup'|L|capitalize}}">
                 <NavigationButton android.systemIcon="ic_menu_back" (tap)="routerExtensions.back()">
                 </NavigationButton>
-        </ActionBar>
+        </ActionBar> 
     
 
         <StackLayout orientation="vertical">
-                <Image stretch="aspectFit" src="http://tinygiantwebsolutions.com/wp-content/uploads/2017/03/friendly-business-owner.jpg"></Image>
-                <label text="{{'user'|L}}"></label>
+        <Image stretch="aspectFit" src="http://tinygiantwebsolutions.com/wp-content/uploads/2017/03/friendly-business-owner.jpg"></Image>
+               
+        <StackLayout orientation="vertical" class="content_margin">  
+                        <label text="{{'S_Customer_Or_Business'|L}}" class="text-center"></label> 
+                        <ListPicker  [items]="['S_Customer'|L,'S_Business'|L,'S_Employee'|L]" selectedIndex="0" (selectedIndexChange)="selectedIndexChanged($event)" class="p-15"></ListPicker>
+                        <Button class="btn-red btn-active" text="{{'C_Next'|L}}" (tap)="next()"></Button>
+        </StackLayout>
+                
         </StackLayout>
         
 </page>

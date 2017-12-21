@@ -1,12 +1,12 @@
 <StackLayout #container >
     <Image src="res://logo_login" stretch="none" horizontalAlignment="center"></Image>
-    <TextField hint="Email Address" keyboardType="email" [(ngModel)]="user.email"
+    <TextField hint="{{'Login_hint_email'|L}}" keyboardType="email" [(ngModel)]="user.email"
       autocorrect="false" autocapitalizationType="none"></TextField>
     <TextField hint="Password" secure="true" [(ngModel)]="user.password"></TextField>
   
-    <Button text="Sign In" class="submit-button" ></Button>
-    <Button text="Sign Ups" [nsRouterLink]="['/signup']"></Button>
-    
-  </StackLayout>
+    <Button text="{{'Login_signin'|L}}" class="submit-button" ></Button>
+    <Button text="{{'Login_signup'|L}}" [nsRouterLink]="['/signup']"></Button>
+     
+  </StackLayout> 
 
  

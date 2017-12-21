@@ -10,8 +10,11 @@ import {NativeScriptFormsModule } from 'nativescript-angular/forms';
 import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { NativeScriptLocalizeModule } from "nativescript-localize/angular";
 
-//** */
-
+//** Customer Modules  */
+/** Pipes */
+import {CapitalizePipe} from "./pipes/capitalize.pipe";
+//**/
+ 
 import { AppComponent } from "./app.component";
 import {routes,navigatableComponents} from "./app.routing";
 
@@ -26,12 +29,16 @@ import {routes,navigatableComponents} from "./app.routing";
     NativeScriptHttpModule,
     NativeScriptRouterModule,
     NativeScriptRouterModule.forRoot(routes),
-    NativeScriptLocalizeModule
+    NativeScriptLocalizeModule,
     //NG Modules
+
     
   ],
   declarations: [
     AppComponent,
+        //Pipes
+        CapitalizePipe,
+        //
     ...navigatableComponents// this array contains all the components that we are going to use in our app
   ],
   bootstrap: [AppComponent],

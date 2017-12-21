@@ -1,4 +1,5 @@
 @import url("~/platform.css");
+@import '~nativescript-theme-core/css/core.light.css';
 
 Page {
     background-color: white;
@@ -17,7 +18,23 @@ Page {
   }
 
   /*Theme */
-  ActionBar{
+  .action-bar{
     background-color: #CB1D00;
     color:#FFFFFF;
   }
+  /*Btns*/
+  .btn-red{
+    background-color:#CB1D00;
+    color:#FFFFFF;
+  }
+
+
+  /*Theme end*/
+
+  /**/
+  .content_margin {
+    margin-top:5;
+    margin-left: 10;
+    margin-right:10;
+  }
+
