@@ -36,11 +36,51 @@ export class LoginComponent implements OnInit {
     this.page.actionBarHidden = true;
     this.page.backgroundImage = "res://bg_login";
   }
- 
 
+
+
+ submit(){
  
- signUp(){ 
-  this.router.navigate(["signup"]);
+  if(this.isLoggingIn){
+    this.login();
+  }
+  else{
+    this.signUp();
+  }
+
+ }
+
+ toggleDisplay(){
+  this.isLoggingIn=!this.isLoggingIn;
+  let container = <View>this.container.nativeElement;
+  container.animate({
+    backgroundColor: this.isLoggingIn ? new Color("white"): new Color("#301217"),
+    duration: 200
+  });
+
+ }
+
+
+ login(){
+
+  this.userService.login(this.user)
+    .subscribe(
+      ()=>this.router.navigate(["/list"]),
+      (error) => alert("Unfortunately we could not find your account")
+  );
+
+ }
+ signUp(){
+    
+   this.userService.register(this.user).subscribe(
+    () =>{
+      alert("Your Account was successfully created.");
+      this.toggleDisplay();},
+    () =>{
+      alert("Unfortunatlly we were unable to create your account.")  
+    }
+   );
+   
  }
 
 

@@ -4,8 +4,8 @@
       autocorrect="false" autocapitalizationType="none"></TextField>
     <TextField hint="Password" secure="true" [(ngModel)]="user.password"></TextField>
   
-    <Button text="Sign In" class="submit-button" ></Button>
-    <Button text="Sign Ups" [nsRouterLink]="['/signup']"></Button>
+    <Button [text]="isLoggingIn ? 'Sign in' : 'Sign up'" class="submit-button" (tap)="submit()"></Button>
+    <Button [text]="isLoggingIn ? 'Sign up' : 'Back to login'" (tap)="toggleDisplay()"></Button>
     
   </StackLayout>
 
