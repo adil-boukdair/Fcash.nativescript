@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string formatted="false" name="_e588397b1e57b9921cf8e3e163b1c663dbfb2483">"Does your business accepte Tips"</string>
+  <string formatted="false" name="_ab25d61bb12492027e2633997eea946c0f65a6b7">"Phone Number"</string>
+  <string formatted="false" name="_e1b1790da9f9c7d1cc2ecac3d1c4be2f6229f9ba">"Your email address"</string>
+  <string formatted="false" name="_09ba557fd106f1019ec6739113e3e28dea4bd9a6">"Email Address"</string>
+  <string formatted="false" name="_35d55624b9812a62c906cad6dd70c1086fc0aff2">"Zip Code"</string>
+  <string formatted="false" name="_475160df1d517ed43163021e8a44bccb26a4c2ec">"City where your store is located"</string>
+  <string formatted="false" name="_4271627f4f0bef6104a95cca7bb21cda4d74503e">"City"</string>
+  <string formatted="false" name="_a78a36400044da2cdd0e6f3f1d8fa4711522ea6e">"Address of your store or business"</string>
+  <string formatted="false" name="_757d5274d39a315392c757ae44c193ddc19019f4">"Store Address"</string>
+  <string formatted="false" name="_879009ab1d285b656ff6c21bad19c6a6988b62ab">"Your business name or store name"</string>
+  <string formatted="false" name="_110ef125f9a524a744c52e1d0b32658be62a8781">"Store Name"</string>
+  <string formatted="false" name="_d3e37b2d393552bae63d40a817e0215833cbf344">"Business information"</string>
   <string formatted="false" name="_f5e718ab08a2587cf225833ded47689da8fd7f07">"Employee"</string>
   <string formatted="false" name="_180ac63432a328888fa8a87fea3ca1f06ed4f16d">"Business"</string>
   <string formatted="false" name="_4158128b79a4ddaf737b902a76ca9397552c69a4">"Customer"</string>

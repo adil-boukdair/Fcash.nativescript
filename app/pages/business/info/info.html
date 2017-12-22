@@ -1,14 +1,65 @@
 <page class="page">
-        <ActionBar class="action-bar" title="{{'Business info'|L|capitalize}}">
+        <ActionBar class="action-bar" title="{{'Business information'|L|capitalize}}">
                 <NavigationButton android.systemIcon="ic_menu_back" (tap)="routerExtensions.back()">
                 </NavigationButton>
         </ActionBar> 
     
 
-        <StackLayout orientation="vertical">
-                
-                
-        </StackLayout>
+        <GridLayout rows="*" columns="*" >
+                <ScrollView row="0" col="3">
+                    <GridLayout rows="*" columns="*">
+                        <StackLayout  >
+                            <StackLayout  class="content_margin"  >
+                                <!-- Store Name -->
+                                <Label class="label" text="{{'Store Name'|L}}" textWrap="true"></Label>
+                                <TextField hint="{{'Your business name or store name'|L}}" text="" ></TextField>
+
+                                <!-- Store Address -->
+                                <Label class="label" text="{{'Store Address'|L}}" textWrap="true"></Label>
+                                <TextField hint="{{'Address of your store or business'|L}}" text="" ></TextField>
+
+                                <!-- Store City -->
+                                <Label class="label" text="{{'City'|L}}" textWrap="true"></Label>
+                                <TextField hint="{{'City where your store is located'|L}}" text="" ></TextField>
+
+                                <!-- Zip Code -->
+                                <Label class="label" text="{{'Zip Code'|L}}" textWrap="true"></Label>
+                                <TextField hint="75000" text="" keyboardType="number" ></TextField>
+ 
+                                <!-- Country Support only france for now
+                                <Label class="label" text="Country" textWrap="true"></Label>
+                                <ListPicker  [items]="['France'|L,'S_Business'|L,'S_Employee'|L]" selectedIndex="1" (selectedIndexChange)="selectedIndexChanged($event)" class="p-15"></ListPicker>  
+                                -->
+ 
+                                <!-- Email Address -->
+                                <Label class="label" text="{{'Email Address'|L}}" textWrap="true"></Label>
+                                <TextField hint="{{'Your email address'|L}}" text="" keyboardType="email"></TextField>
+
+                                <!-- Phone number -->
+                                <Label class="label" text="{{'Phone Number'|L}}" textWrap="true"></Label>
+                                <TextField hint="Your phone number" text="" keyboardType="phone"></TextField>
+                                 
+                                <!--- Tips -->
+                                <GridLayout rows="auto auto" columns="* *" class="m-t-5">
+                                        <Label class="label m-0" text="{{'Does your business accepte Tips'|L}}" textWrap="true" row="0" col="0"></Label>
+                                        <Switch class="m-0" checked="false" (checkedChange)="next($event)" row="0" col="1"></Switch>   
+                                </GridLayout>
+                                
+  
+
+
+                                <!-- Next Button -->
+                                <StackLayout style="margin-top:35">
+                                        <Button class="btn-red btn-active" text="{{'C_Next'|L}}" (tap)="next()"></Button>
+                                </StackLayout>
+
+                                
+                            </StackLayout>
+                        </StackLayout>
+                    </GridLayout>
+                </ScrollView>
+ 
+            </GridLayout>
         
 </page>
 

@@ -1,5 +1,6 @@
 import {Component} from "@angular/core";
 import { RouterExtensions } from "nativescript-angular/router";
+import { ListPicker } from "ui/list-picker";
  
 
 @Component({
@@ -12,19 +13,22 @@ import { RouterExtensions } from "nativescript-angular/router";
 
 
 export class BusinessInfoComponent {
-
+    public picked:  number;
+    public customerOrBusiness : Array<string>;
  
     constructor(private routerExtensions: RouterExtensions
             ){
 
     }
 
-  
+    public selectedIndexChanged(args) {
+        let picker = <ListPicker>args.object;
+        this.picked = picker.selectedIndex;
+    }
 
     public next(){
  
     }
 
- 
 }
 

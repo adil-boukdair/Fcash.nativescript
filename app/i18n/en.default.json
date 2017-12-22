@@ -21,7 +21,19 @@
       "S_Customer_Or_Business":"Are you a customer or a Business ?",
       "S_Customer":"Customer",
       "S_Business":"Business",
-      "S_Employee":"Employee"  
-  
+      "S_Employee":"Employee",  
+    "Business_info_page":{},
+      "Business information":"Business information",
+      "Store Name":"Store Name",
+      "Your business name or store name":"Your business name or store name",
+      "Store Address":"Store Address",
+      "Address of your store or business":"Address of your store or business",
+      "City":"City",
+      "City where your store is located":"City where your store is located",
+      "Zip Code":"Zip Code",
+      "Email Address":"Email Address",
+      "Your email address":"Your email address",
+      "Phone Number":"Phone Number",
+      "Does your business accepte Tips":"Does your business accepte Tips"
 
   }

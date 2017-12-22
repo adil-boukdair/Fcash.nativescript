@@ -10,7 +10,7 @@
                
         <StackLayout orientation="vertical" class="content_margin">  
                         <label text="{{'S_Customer_Or_Business'|L}}" class="text-center"></label> 
-                        <ListPicker  [items]="['S_Customer'|L,'S_Business'|L,'S_Employee'|L]" selectedIndex="0" (selectedIndexChange)="selectedIndexChanged($event)" class="p-15"></ListPicker>
+                        <ListPicker  [items]="['S_Customer'|L,'S_Business'|L,'S_Employee'|L]" selectedIndex="1" (selectedIndexChange)="selectedIndexChanged($event)" class="p-15"></ListPicker>
                         <Button class="btn-red btn-active" text="{{'C_Next'|L}}" (tap)="next()"></Button>
         </StackLayout>
                 
