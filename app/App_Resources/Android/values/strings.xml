@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string formatted="false" name="_353cd98584d89d976520685f9665d4d5ce1e2bbb">"Locate my store later"</string>
+  <string formatted="false" name="_952f375412e89ff213a8aca383d18e5691354347">"Start"</string>
+  <string formatted="false" name="_8b86f9836873395e70033ab84c4e5a2502ea53a7">"The customers can get the extact location of your store when browsing the app and they can find you easily when you set your location, please be sure to be in your store when you click on get store location button"</string>
+  <string formatted="false" name="_cb3330fb17951747c09ec209cd7bbff51fbc1943">"Set store location"</string>
+  <string formatted="false" name="_d5c098935c7b1a0ea6c10cdbb73a1c79189c9228">"Cash back rate"</string>
+  <string formatted="false" name="_e27ff88e1a75a4dd6c0f24abbe79b412745395d5">"in his electronic wallet wich he will use in his next purchase"</string>
+  <string formatted="false" name="_6c8b3e1203c56b7003469154abb3c8c11fc96f7b">"worth of merchandise or service and you offer 10% Cash back rate the customer will automatically get 10"</string>
+  <string formatted="false" name="_4ec1b5ee1d46f3d95c62e794e349bd46b9bf275f">"The Cash back rate is the rewards percentage that the customer get on every purchase, for example if a customer buys 100"</string>
+  <string formatted="false" name="_52167839a167ae511efbddd6d8cbf86342b1f2b0">"Set Cash Back rate"</string>
   <string formatted="false" name="_e588397b1e57b9921cf8e3e163b1c663dbfb2483">"Does your business accepte Tips"</string>
   <string formatted="false" name="_ab25d61bb12492027e2633997eea946c0f65a6b7">"Phone Number"</string>
   <string formatted="false" name="_e1b1790da9f9c7d1cc2ecac3d1c4be2f6229f9ba">"Your email address"</string>
@@ -21,6 +30,7 @@
   <string formatted="false" name="_d24b7079b4020741070701a769e5bb88b06b6a9d">"Email Address"</string>
   <string formatted="false" name="_bb83a44d6083b96d0fb78e13a5d773e70f3d89eb">"sign up"</string>
   <string formatted="false" name="_9631cadf38436a3fd6929fe351baae2cbb16aed2">"sign in"</string>
+  <string formatted="false" name="_145f5d886c3c11ac8914de513ec42b1e3c7ceb3c">"£"</string>
   <string formatted="false" name="_f0d1e65b02ec24c86ecab2d0797d6fd3a43ab3c6">"Next"</string>
   <string formatted="false" name="_12dea96fec20593566ab75692c9949596833adc9">"utilisateur"</string>
   <string formatted="false" name="_932c7ce7303f2adb208fc9784ba0dc10f07d9684">"This will be added to InfoPlist.strings"</string>

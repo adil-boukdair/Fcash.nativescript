@@ -1,0 +1,34 @@
+<page class="page">
+        <ActionBar class="action-bar" title="{{'Set Cash Back rate'|L|capitalize}}">
+                <NavigationButton android.systemIcon="ic_menu_back" (tap)="routerExtensions.back()">
+                </NavigationButton>
+        </ActionBar> 
+    
+ 
+        <StackLayout orientation="vertical" >
+                <Image stretch="aspectFit" src="http://cdn.magnifymoney.com/2014/11/best-cash-back-e1469689302241.jpg"></Image>
+
+        <StackLayout class="content_margin">
+                <Label textWrap="true" class="body"
+                 text="{{'The Cash back rate is the rewards percentage that the customer get on every purchase, for example if a customer buys 100'|L}}{{'C_CurrencySign'|L}} {{'worth of merchandise or service and you offer 10% Cash back rate the customer will automatically get 10'|L}}{{'C_CurrencySign'|L}} {{'in his electronic wallet wich he will use in his next purchase'|L}}."></Label>
+       
+                <!-- Cash Back Rate -->
+                <GridLayout rows="auto auto" columns="* *" class="m-t-20">
+                        <Label class="label m-t-20 m-l-10 h3" text="{{'Cash back rate'|L }} {{'%'}}" textWrap="true" row="0" col="0"></Label>
+                        <TextField class="m-t-8 m-r-10" hint="10" text="" keyboardType="number" row="0" col="1"></TextField> 
+                </GridLayout>
+
+                <!-- Next Button -->
+                <StackLayout style="margin-top:35">
+                                <Button class="btn-red btn-active" text="{{'C_Next'|L}}" (tap)="next()"></Button>
+                </StackLayout>
+                
+       </StackLayout>             
+                 
+        </StackLayout> 
+        
+</page>
+
+
+
+

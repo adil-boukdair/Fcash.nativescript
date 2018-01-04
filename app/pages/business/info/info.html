@@ -30,7 +30,7 @@
                                 <Label class="label" text="Country" textWrap="true"></Label>
                                 <ListPicker  [items]="['France'|L,'S_Business'|L,'S_Employee'|L]" selectedIndex="1" (selectedIndexChange)="selectedIndexChanged($event)" class="p-15"></ListPicker>  
                                 -->
- 
+  
                                 <!-- Email Address -->
                                 <Label class="label" text="{{'Email Address'|L}}" textWrap="true"></Label>
                                 <TextField hint="{{'Your email address'|L}}" text="" keyboardType="email"></TextField>
@@ -44,13 +44,13 @@
                                         <Label class="label m-0" text="{{'Does your business accepte Tips'|L}}" textWrap="true" row="0" col="0"></Label>
                                         <Switch class="m-0" checked="false" (checkedChange)="next($event)" row="0" col="1"></Switch>   
                                 </GridLayout>
-                                
+                                 
   
 
 
                                 <!-- Next Button -->
                                 <StackLayout style="margin-top:35">
-                                        <Button class="btn-red btn-active" text="{{'C_Next'|L}}" (tap)="next()"></Button>
+                                        <Button class="btn-red btn-active" text="{{'C_Next'|L}}" [nsRouterLink]="['/business-cash-back']"></Button>
                                 </StackLayout>
 
                                 

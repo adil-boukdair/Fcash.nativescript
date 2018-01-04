@@ -9,6 +9,7 @@
     
     "Common_Words":{},
       "C_Next":"Next",
+      "C_CurrencySign":"£",
 
     
     "Login_page":{},
@@ -34,6 +35,17 @@
       "Email Address":"Email Address",
       "Your email address":"Your email address",
       "Phone Number":"Phone Number",
-      "Does your business accepte Tips":"Does your business accepte Tips"
+      "Does your business accepte Tips":"Does your business accepte Tips",
+    "Business_CashBack_page":{},
+      "Set Cash Back rate":"Set Cash Back rate",  
+      "The Cash back rate is the rewards percentage that the customer get on every purchase, for example if a customer buys 100":"The Cash back rate is the rewards percentage that the customer get on every purchase, for example if a customer buys 100",
+      "worth of merchandise or service and you offer 10% Cash back rate the customer will automatically get 10":"worth of merchandise or service and you offer 10% Cash back rate the customer will automatically get 10",
+      "in his electronic wallet wich he will use in his next purchase":"in his electronic wallet wich he will use in his next purchase",
+      "Cash back rate":"Cash back rate",
+    "Business_location_page":{},
+      "Set store location":"Set store location",
+      "The customers can get the extact location of your store when browsing the app and they can find you easily when you set your location, please be sure to be in your store when you click on get store location button":"The customers can get the extact location of your store when browsing the app and they can find you easily when you set your location, please be sure to be in your store when you click on get store location button",
+      "Start":"Start",
+      "Locate my store later":"Locate my store later"
 
   }

@@ -16,7 +16,7 @@ let pokemonList = ["Customer", "Business"];
 
 export class SignupComponent {
 
-    public pokemons: Array<string>;
+ 
     public picked:  number;
     public customerOrBusiness : Array<string>;
 

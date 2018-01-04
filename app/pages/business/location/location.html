@@ -1,0 +1,32 @@
+<page class="page">
+        <ActionBar class="action-bar" title="{{'Set store location'|L|capitalize}}">
+                <NavigationButton android.systemIcon="ic_menu_back" (tap)="routerExtensions.back()">
+                </NavigationButton>
+        </ActionBar> 
+    
+
+        <StackLayout orientation="vertical">
+
+                <Image stretch="aspectFit" src="https://marketingland.com/wp-content/ml-loads/2017/01/local-search-pin-map-ss-1920.jpg"></Image>
+
+                <StackLayout class="content_margin">
+                        <label textWrap="true" class="body" text="{{'The customers can get the extact location of your store when browsing the app and they can find you easily when you set your location, please be sure to be in your store when you click on get store location button'|L}}"></label>
+                
+                        
+                <!-- Buttons -->
+                <StackLayout style="margin-top:55">
+                                <Button class="btn-red btn-active" text="{{'Start'|L}}" (tap)="next()"></Button>
+                                <Button class="btn btn-default btn-sm" text="{{'Locate my store later'|L}}" (tap)="next()"></Button>
+                </StackLayout>
+
+                </StackLayout>
+        
+                  
+                
+        </StackLayout>
+        
+</page>
+ 
+
+
+
