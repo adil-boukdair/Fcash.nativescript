@@ -1,0 +1,32 @@
+<page class="page">
+        <ActionBar class="action-bar" title="{{'Signing up your business'|L|capitalize}}">
+                <NavigationButton android.systemIcon="ic_menu_back" (tap)="routerExtensions.back()">
+                </NavigationButton>
+        </ActionBar> 
+    
+
+        <StackLayout orientation="vertical">
+
+                <Image stretch="aspectFit" src="https://si.wsj.net/public/resources/images/BN-GI723_0109to_J_20150108161925.jpg"></Image>
+
+                <StackLayout class="content_margin">
+                        <label textWrap="true" class="body" text="{{'Get more loyal customers and be able to accepte all kind of credit cards'|L}}"></label>
+                 
+                         
+                <!-- Buttons -->
+                <StackLayout style="margin-top:55">
+                                <ActivityIndicator busy="{{ isLoading }}" ></ActivityIndicator>
+                                <Button class="btn-red btn-active" text="{{'Start'|L}}" (tap)="next()"></Button>
+                </StackLayout>
+
+                </StackLayout>
+        
+                  
+                
+        </StackLayout>
+        
+</page>
+ 
+
+
+

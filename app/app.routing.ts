@@ -5,6 +5,7 @@ import { SignupComponent } from "./pages/signup/signup.component";
 import {BusinessInfoComponent} from "./pages/business/info/info.component";
 import {CashBackComponent} from "./pages/business/cashBack/cashBack.component";
 import {LocationComponent} from "./pages/business/location/location.component";
+import {SigningUpComponent} from "./pages/business/signingUp/signingUp.component";
 
 export const routes= [
     {path:"",component: LoginComponent},
@@ -13,7 +14,8 @@ export const routes= [
     //Business
     {path:"business-info",component:BusinessInfoComponent},
     {path:"business-cash-back",component:CashBackComponent},
-    {path:"business-location",component:LocationComponent}  
+    {path:"business-location",component:LocationComponent},
+    {path:"signing-up",component:SigningUpComponent}  
 ];
 
 export const navigatableComponents =[
@@ -23,5 +25,6 @@ export const navigatableComponents =[
     //Business
     BusinessInfoComponent,
     CashBackComponent,
-    LocationComponent
+    LocationComponent,
+    SigningUpComponent
 ];

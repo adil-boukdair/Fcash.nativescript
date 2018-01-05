@@ -3,27 +3,27 @@ import { RouterExtensions } from "nativescript-angular/router";
  
 
 @Component({
-    selector:"business-location",
+    selector:"signing-up",
     moduleId:module.id,
-    templateUrl:"./location.html",
-    styleUrls:["./location-common.css","./location.css"],
+    templateUrl:"./signingUp.html",
+    styleUrls:["./signingUp-common.css","./signingUp.css"],
     providers :[]
 }) 
 
 
-export class LocationComponent {
+export class SigningUpComponent {
 
+    isLoading:boolean;
  
     constructor(private routerExtensions: RouterExtensions
             ){
 
+                this.isLoading=true;
     }
 
   
 
     public next(){
-
-        this.routerExtensions.navigate(['signing-up']);
  
     }
 
