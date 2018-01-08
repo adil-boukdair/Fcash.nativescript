@@ -3,8 +3,8 @@
     <TextField hint="{{'Login_hint_email'|L}}" keyboardType="email" [(ngModel)]="user.email"
       autocorrect="false" autocapitalizationType="none"></TextField>
     <TextField hint="Password" secure="true" [(ngModel)]="user.password"></TextField>
-  
-    <Button text="{{'Login_signin'|L}}" class="submit-button" ></Button>
+    
+    <Button text="{{'Login_signin'|L}}" class="submit-button" [nsRouterLink]="['/business-home']"></Button>
     <Button text="{{'Login_signup'|L}}" [nsRouterLink]="['/signup']"></Button>
      
   </StackLayout> 

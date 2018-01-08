@@ -23,7 +23,7 @@ export class LocationComponent {
 
     public next(){
 
-        this.routerExtensions.navigate(['signing-up']);
+        this.routerExtensions.navigate(['business-signing-up']);
  
     }
 

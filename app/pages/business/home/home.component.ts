@@ -3,15 +3,15 @@ import { RouterExtensions } from "nativescript-angular/router";
  
 
 @Component({
-    selector:"signing-up",
+    selector:"business-home",
     moduleId:module.id,
-    templateUrl:"./signingUp.html",
-    styleUrls:["./signingUp-common.css","./signingUp.css"],
+    templateUrl:"./home.html",
+    styleUrls:["./home-common.css","./home.css"],
     providers :[]
 }) 
+ 
 
-
-export class SigningUpComponent {
+export class BusinessHomeComponent {
 
     isLoading:boolean;
  
