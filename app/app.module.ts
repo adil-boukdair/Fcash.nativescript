@@ -11,10 +11,13 @@ import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { NativeScriptLocalizeModule } from "nativescript-localize/angular";
 
 //** Customer Modules  */
+
+/** Shared Modules */
+import {BusinessMenuModule} from "./shared/menu/business/business-menu.module"
 /** Pipes */
 import {CapitalizePipe} from "./pipes/capitalize.pipe";
 //**/
- 
+  
 import { AppComponent } from "./app.component";
 import {routes,navigatableComponents} from "./app.routing";
 
@@ -30,6 +33,8 @@ import {routes,navigatableComponents} from "./app.routing";
     NativeScriptRouterModule,
     NativeScriptRouterModule.forRoot(routes),
     NativeScriptLocalizeModule,
+    //Shared Modules
+    BusinessMenuModule
     //NG Modules
 
     

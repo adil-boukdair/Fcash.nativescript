@@ -1,5 +1,11 @@
 @import url("~/platform.css");
 @import '~nativescript-theme-core/css/core.light.css';
+ 
+
+/*FontAwesome*/
+.fa {
+  font-family: "FontAwesome";
+}
 
 Page {
     background-color: white;
